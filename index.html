@@ -4,9 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>My First Contest</h1>
-    <p>Github Testing Para</p>
+    <header id="header">
+        <h1>Pune(पुणे)</h1>
+        <p>There is nothing lacking in Pune<b>(पुणे तिथे काय उणे)!</b></p>
+    </header>
+    <hr>
+    <br>
+    <nav>
+        <a href="#Description"> Description </a>
+        <a href="#Attraction"> Attraction </a>
+        <a href="#Statistics"> Statistics </a>
+        <a href="#Feedback"> Feedback </a>
+        <a href="#Quotes"> Quotes </a>
+        <a href="#Contact">Contact</a>
+    </nav>
+    <br>
+    <section id="Description">
+        <h2>Discover Pune</h2>
+        <img src="https://th.bing.com/th/id/OIP.3ouMT-ozDn5RkrCHMukFXQHaEe?w=308&h=186&c=7&r=0&o=5&dpr=2&pid=1.7" height="400px">
+        <p>Pune is one of the largest IT hubs in India. Pune is often referred to as "Oxford of the East" because of highly regarded educational institutions in the city. It has been ranked "the most liveable city in India" several times</p>
+    </section>
+    <br>
+    <section id="#Attraction">
+        <h1>Attraction</h1><br>
+        <h4>Ancient Places:</h4>
+        <ul>
+            <li>Aga Khan Palace</li>
+            <li>Shaniwar Wada</li>
+            <li>Sinhgad Fort</li>
+            <li>Lohagad Fort</li>
+        </ul><br>
+        <h4>Local Places:</h4>
+        <ol>
+            <li>Shreemant Dagdusheth Halwai Ganapati temple</li>
+            <li>Rajiv Gandhi Zoological Park</li>
+            <li>Khadakwasla Dam</li>
+            <li>Saras Baug</li>
+        </ol>
+    </section>
+    <br>
+    <section id="Statistics">
+        <h1>Pune Statistics</h1><br>
+        <table border="1px">
+            <thead style="background-color: yellow;">
+                <tr>
+                    <th>Attribute</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody style="background-color: gainsboro;">
+                <tr>
+                    <td>Population</td>
+                    <td>7,166,374</td>
+                </tr>
+                <tr>
+                    <td>Landmarks</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Beaches</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Pubs</td>
+                    <td>193</td>
+                </tr>
+            </tbody>
+        </table>
+    </section><br>
+    <section id="Feedback">
+        <h1>Feedback</h1><br>
+        <form>
+            <label for="name">Name :</label>
+            <input type="text" placeholder="Enter your name" id="name" required name="name"><br>
+            <label for="email">Email :</label>
+            <input type="email" placeholder="Enter your email" id="email" name="email"><br>
+            <label for="age">Age :</label>
+            <input type="number" placeholder="Enter your age" id="age" name="age"><br>
+            <label for="Attractions">Favorite Attractions :</label>
+            <select id="Attractions">
+                <option >Shaniwar Wada</option>
+                <option>Sinhagad Fort</option>
+                <option>Saras Baug</option>
+                <option>Khadakwasla Dam</option>
+            </select><br>
+            <label for="comments">Comments :</label>
+            <textarea id="comments" placeholder="Express few words about pune"></textarea><br>
+            <label for="newsletter">Newsletter :</label>
+            <input type="checkbox"> Subscribe to our Newsletter<br>
+            <button type="submit">Submit</button>
+        </form>
+    </section><br>
+    <section id="Quotes">
+        <h1>What Citizens Say</h1><br>
+        <p>Pune is not just a city but a state a mind!</p>
+        <p> I’ll eat some breakfast and then change the world! </p>
+    </section><br>
+    <footer id="Contact">
+        <h1>Contact Us</h1><br>
+        <p>
+            Pune Tourism Office,<br>
+            Hadapsar, Pune
+            Email: pune@tourism.com<br>
+            Phone No: 11122334455
+        </p><br>
+        <p>@2023 Pune Tourism. Dive into Dreams.</p>
+        
+    </footer>
 </body>
 </html>

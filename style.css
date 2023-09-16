@@ -1,0 +1,18 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 1px;
+}
+
+a{
+    border-right: 2px solid black ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul li ,ol li{
+    display: list-item;
+    list-style-position: inside;
+  }
+
+ 
