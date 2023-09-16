@@ -2,9 +2,14 @@
 {
     margin: 0;
     padding: 0;
-    margin-left: 1px;
 }
-
+header , nav, nav a{
+    background-color: black;
+    color: white;
+}
+nav{
+    padding-top: 20px;
+}
 a{
     border-right: 2px solid black ;
     padding-left: 10px;
